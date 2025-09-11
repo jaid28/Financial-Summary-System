@@ -2,9 +2,10 @@ import logging
 from datetime import datetime, timedelta
 from typing import List, Dict, Any
 import requests
-from crewai_tools import tool
+from crewai import tool
+# from crewai_tools.tools import tool
 from litellm import completion
-from config import config
+from src.config import config
 
 logger = logging.getLogger(__name__)
 
