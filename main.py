@@ -1,4 +1,3 @@
-# main.py - Fixed version for production
 import os
 import sys
 import logging
@@ -7,8 +6,8 @@ from pathlib import Path
 # Add current directory to path for imports
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from config import config
-from agents import FinancialSummaryFlow
+from src.config import config
+from src.agents import FinancialSummaryFlow
 
 # Setup logging
 def setup_logging():
