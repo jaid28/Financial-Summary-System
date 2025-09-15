@@ -216,3 +216,4 @@ class FinancialSummaryFlow(Flow):
             "pdf_paths": pdf_paths,
             "telegram_sent": True
         }
+
